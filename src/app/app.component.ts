@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'hello-angular';
   nomeCompleto: string = 'Clodoaldo Dos Santos Negreiros Junior';
+
+  constructor() {
+    console.log('oi');
+  }
 }
